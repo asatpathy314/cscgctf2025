@@ -1,0 +1,45 @@
+# Core analysis and reverse engineering
+angr==9.2.47               # Symbolic execution for binaries (multiple platforms)
+claripy==9.2.47            # Angr's constraint-solving component
+
+# Web and network utilities
+beautifulsoup4==4.11.2     # HTML parsing/processing
+Flask==2.2.3               # Python web framework
+requests==2.31.0           # HTTP client library
+websockets==11.0.3         # WebSocket implementation
+urllib3==2.1.0             # URL handling utilities
+git-dumper==1.0.8          # Dump website's .git repository
+
+# Cryptography and mathematics
+ecdsa==0.18.0              # Elliptic curve digital signature algorithm
+gmpy2==2.1.5               # Multiple-precision arithmetic library
+primefac==2.0.12           # Prime factorization tools
+pycryptodomex==3.19.0      # Cryptographic primitives (PyCryptodome fork)
+z3-solver==4.10.2.0        # Theorem prover/SMT solver
+rsa==4.9                   # Pure implementation of RSA (better for some challenges)
+
+# Data analysis and scientific computing
+numpy==1.24.1              # Numerical computing library
+pandas==1.5.3              # Data manipulation/analysis
+scipy==1.10.1              # Scientific computing tools
+sympy==1.11.1              # Symbolic mathematics library
+
+# Binary exploitation and low-level
+pwntools==4.10.0           # CTF framework/exploit development
+ROPGadget==7.2             # ROP chain construction tool
+
+# Specialized utilities
+factordb-pycli==1.3.0      # FactorDB client for RSA challenges
+mersenne-twister-predictor==0.0.4  # Predict Python's random module output
+# morse-audio-decoder	   # Morse code audio decoding
+# pip install --user git+https://github.com/Hedroed/png-parser	# PNG file analysis/repair
+
+# Image/audio processing
+opencv-python==4.8.0.76    # Computer vision library
+Pillow==9.4.0              # Image processing library
+
+# Development environment
+ipython==8.11.0            # Enhanced interactive Python shell
+matplotlib==3.7.0          # Plotting/data visualization
+
+# Also SageMath, but SageMath has to be manually installed as shown here: https://doc.sagemath.org/html/en/installation/index.html
