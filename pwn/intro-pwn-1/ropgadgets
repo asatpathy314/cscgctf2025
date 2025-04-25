@@ -1,0 +1,32 @@
+Gadgets information
+============================================================
+0x0000000000401247 : add byte ptr [rax], al ; add byte ptr [rax], al ; leave ; ret
+0x0000000000401248 : add byte ptr [rax], al ; add cl, cl ; ret
+0x000000000040114a : add byte ptr [rax], al ; add dword ptr [rbp - 0x3d], ebx ; nop ; ret
+0x0000000000401249 : add byte ptr [rax], al ; leave ; ret
+0x000000000040114b : add byte ptr [rcx], al ; pop rbp ; ret
+0x000000000040124a : add cl, cl ; ret
+0x000000000040114c : add dword ptr [rbp - 0x3d], ebx ; nop ; ret
+0x0000000000401147 : add eax, 0x2f1b ; add dword ptr [rbp - 0x3d], ebx ; nop ; ret
+0x00000000004011c3 : call qword ptr [rax + 0x4855c35d]
+0x000000000040121f : call qword ptr [rax + 0x4855c3c9]
+0x0000000000401163 : cli ; jmp 0x4010f0
+0x0000000000401160 : endbr64 ; jmp 0x4010f0
+0x000000000040116d : iretd
+0x0000000000401117 : je 0x401120 ; mov edi, 0x404038 ; jmp rax
+0x0000000000401164 : jmp 0x4010f0
+0x0000000000401221 : leave ; ret
+0x0000000000401146 : mov byte ptr [rip + 0x2f1b], 1 ; pop rbp ; ret
+0x0000000000401246 : mov eax, 0 ; leave ; ret
+0x0000000000401220 : nop ; leave ; ret
+0x00000000004011c4 : nop ; pop rbp ; ret
+0x000000000040115c : nop dword ptr [rax] ; endbr64 ; jmp 0x4010f0
+0x000000000040114d : pop rbp ; ret
+0x0000000000401205 : pop rdi ; ret
+0x00000000004011a2 : retf 0xfffe
+0x0000000000401148 : sbb ebp, dword ptr [rdi] ; add byte ptr [rax], al ; add dword ptr [rbp - 0x3d], ebx ; nop ; ret
+0x0000000000401251 : sub esp, 8 ; add rsp, 8 ; ret
+0x0000000000401250 : sub rsp, 8 ; add rsp, 8 ; ret
+0x0000000000401115 : test eax, eax ; je 0x401120 ; mov edi, 0x404038 ; jmp rax
+
+Unique gadgets found: 2
