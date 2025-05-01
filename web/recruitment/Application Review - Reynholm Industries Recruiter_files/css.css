@@ -1,0 +1,70 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/static/e3t4euO8T-267oIAQAu6jDQyK3nVivY.ttf") format('truetype');  
+}
+/* hidden means hidden */
+.hidden {
+	display: none;
+}
+
+/* Balloons sample */
+section.message-list {
+  display: flex;
+  flex-direction: column;
+}
+.message-list > .message {
+  display: flex;
+  margin-top: 2rem;
+}
+.message-list > .message > .nes-balloon {
+  max-width: 550px;
+}
+.message-list > .message i {
+  align-self: flex-end;
+}
+.message-list > .message.-left {
+  align-self: flex-start;
+}
+.message-list > .message.-right {
+  align-self: flex-end;
+}
+.message-list > .message.-left i {
+  margin-right: 2rem;
+}
+.message-list > .message.-right i {
+  margin-left: 2rem;
+}
+
+.icon-list > .blur-filter {
+  filter: blur(10px);
+}
+
+
+
+/* side nav */
+
+.sidenav {
+	text-align: center;
+	padding: 10px;
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #123; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  /*padding-top: 20px;*/
+}
+
+.header {
+	margin-top: 10px;
+	display: block;
+}
+
+.main {
+  margin-top: 100px;
+  padding: 0px 10px;
+}
